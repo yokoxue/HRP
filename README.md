@@ -16,7 +16,7 @@ Run   `TSP_gap_sim.m` in the folder `curve_convergence`.
 ## 3.0 Generate results for the sample complexity curves
 Run  `TSP_sample_sim.m` in the folder `curve_samplecomplexity`.
 
-## 4.0 Generate results for the heatmap with synthetic data
+## 4.0 Generate results for the RMSE heatmap with synthetic data
 + Unzip the .zip files in the folder `heatmap_synthetic`
 + Run `TSP_rev1_syndata_main.m` in the folder `heatmap_synthetic`
 
