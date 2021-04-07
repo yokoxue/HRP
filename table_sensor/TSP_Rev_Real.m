@@ -119,35 +119,3 @@ for num_b = [5,7,11,18,28]
     TIME_KSVD(1,num_b) = tot_KSVD;
     TIME_TransL(1,num_b) = tot_TransL;
 end
-% RMSE=[RMSE_l3; RMSE_l3_s1;RMSE_l4;RMSE_l1; RMSE_KSVD;RMSE_TransL];
-% save('RMSE_poland_pm210331without2.mat','RMSE')
-% TIME=[TIME_l3; TIME_l3_s1;TIME_l4;TIME_l1; TIME_KSVD;TIME_TransL];
-% save('TIME_poland_pm210331without2.mat','TIME')
-
-figure(1)
-semiplot=semilogy(1./([1:1:size(A_l3,1)-1]/size(A_l3,1)),RMSE_l3(1:end-1),'--p',...
-    1./([1:1:size(A_l3,1)-1]/size(A_l3,1)),RMSE_l1(1:end-1),'--s', 1./([1:1:size(A_l3,1)-1]/size(A_l3,1)),RMSE_KSVD(1:end-1),'--o',...
-    1./([1:1:size(A_l3,1)-1]/size(A_l3,1)),RMSE_l4(1:end-1),'--','MarkerSize',6.0,'LineWidth',1.2);
-xlabel('Compression ratio')
-ylabel('RMSE')
-
-
-set(semiplot(1),'markerfacecolor', [20, 41, 61]/255,'Color',[20, 41, 61]/255);
-set(semiplot(2),'markerfacecolor',[53, 126, 143]/255,'Color',[53, 126, 143]/255);
-set(semiplot(3),'markerfacecolor', [117, 209, 197]/255,'Color',[117, 209, 197]/255);
-set(semiplot(4),'markerfacecolor',[128, 44, 42]/255,'Color',[128, 44, 42]/255);
-% set(semiplot(5),'markerfacecolor', [214,117, 126]/255,'Color',[214,117, 126]/255);
-legend('Pro','l1','ksvd','l4');
-set(gca,'FontName','Times New Roman','FontSize',14,'LineWidth',1.5)
-grid on
-% figure(2)
-% p1 = plot (1:1:size(pm25_recon_sample_l3,1),pm25_Raw_comp(:,9),'r-',...,
-%     1:1:size(pm25_recon_sample_l3,1),pm25_recon_sample_l3(:,9),'--',...
-%     1:1:size(pm25_recon_sample_l3,1),pm25_recon_sample_l1(:,9),'-.',...
-%     1:1:size(pm25_recon_sample_l3,1),pm25_recon_sample_KSVD(:,9),':','LineWidth',1.2);
-% set(p1(1),'Color',[128, 44, 42]/255);
-%  set(p1(2),'Color',[66, 106, 140]/255);
-%   set(p1(3),'Color',[117, 209, 197]/255);
-%   set(p1(4),'Color',[214,117, 126]/255);
-%  set(gca,'FontName','Times New Roman','FontSize',14,'LineWidth',1.5)
-% grid on
