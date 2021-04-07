@@ -21,6 +21,5 @@ Run  `TSP_sample_sim.m` in the folder `curve_samplecomplexity`.
 + Run `TSP_rev1_syndata_main.m` in the folder `heatmap_synthetic`
 
 ## 5.0 Generate results for the table with real-world sensor data
-+ Copy all the toolboxes and methods from the folder `heatmap_synthetic` to the folder `method` under `table_sensor`
 + Run `TSP_Rev_Real.m` in the folder `table_sensor`
 + Raw data of the sensor readings can be downloaded from https://www.kaggle.com/datascienceairly/air-quality-data-from-extensive-network-of-sensors
