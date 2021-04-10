@@ -24,7 +24,7 @@ for si = 1:1:length(sample_size)
         M = sample_size(si);
         N = dic_size(ti);
         K=N;
-        [Error(si,ti,:),Time(si,ti,:)]= TSP_rev1_syndata(N,K,M,Theta,SNR);
+        [Error(si,ti,:),Time(si,ti,:)]= Syndata_test(N,K,M,Theta,SNR);
     end
 end
 
