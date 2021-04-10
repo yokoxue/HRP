@@ -4,7 +4,7 @@
 Test_num = 10;
 Error_l3_O = 0;
 Error_l3_sphere = 0;
-N = 50;
+N = 150;
 K = N;
 M = 100000;
 Theta = 0.1;
