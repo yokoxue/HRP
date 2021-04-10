@@ -1,5 +1,5 @@
 # HRP
-Code for Hierarchical Riemannian Pursuit
+Code for paper "Efficient Sparse Coding using Hierarchical Riemannian Pursuit" Ye Xue, Graduate Student Member, IEEE, Vincent Lau, Fellow, IEEE and Songfu Cai, Member, IEEE submited to TSP
 
 ## 1.0 Prerequisites
 + **Matlab**
