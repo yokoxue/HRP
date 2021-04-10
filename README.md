@@ -22,5 +22,5 @@ Run  `Sample_sim.m` in the folder `curve_samplecomplexity`.
 
 ## 5.0 Generate the results for the table with real-world sensor data
 + Unzip all the .zip files in the folder `table_sensor`
-+ Run `TSP_Rev_Real.m` in the folder `table_sensor`
++ Run `Sensor_Data_main.m` in the folder `table_sensor`
 + Raw data of the sensor readings of the Airly network can be downloaded from https://www.kaggle.com/datascienceairly/air-quality-data-from-extensive-network-of-sensors
