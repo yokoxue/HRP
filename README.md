@@ -18,7 +18,7 @@ Run  `Sample_sim.m` in the folder `curve_samplecomplexity`.
 
 ## 4.0 Generate the results for the RMSE heatmap with synthetic data
 + Unzip the .zip files in the folder `heatmap_synthetic`
-+ Run `TSP_rev1_syndata_main.m` in the folder `heatmap_synthetic`
++ Run `Syndata_main.m` in the folder `heatmap_synthetic`
 
 ## 5.0 Generate the results for the table with real-world sensor data
 + Unzip all the .zip files in the folder `table_sensor`
