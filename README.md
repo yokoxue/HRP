@@ -11,10 +11,10 @@ Download KSVD v13 from https://www.cs.technion.ac.il/~ronrubin/software.html
 (OMP-Box v10 is required)
 
 ## 2.0 Generate the results for the convergence curves
-Run   `TSP_gap_sim.m` in the folder `curve_convergence`.
+Run   `Converge_sim.m` in the folder `curve_convergence`.
 
 ## 3.0 Generate the results for the sample complexity curves
-Run  `TSP_sample_sim.m` in the folder `curve_samplecomplexity`.
+Run  `Sample_sim.m` in the folder `curve_samplecomplexity`.
 
 ## 4.0 Generate the results for the RMSE heatmap with synthetic data
 + Unzip the .zip files in the folder `heatmap_synthetic`
