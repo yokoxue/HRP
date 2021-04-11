@@ -4,7 +4,6 @@ Code for paper "Efficient Sparse Coding using Hierarchical Riemannian Pursuit" Y
 ## 1.0 Prerequisites
 + **Matlab**
 + **SPAMS Matlab toolbox v2.6**
-
 Download SPAMS from  http://spams-devel.gforge.inria.fr/downloads.html.
 Follow the steps in https://github.com/xhm1014/spams-matlab-install-on-win10 to install.
 
