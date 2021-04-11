@@ -5,12 +5,14 @@ Code for paper "Efficient Sparse Coding using Hierarchical Riemannian Pursuit" Y
 + **Matlab**
 + **SPAMS Matlab toolbox v2.6**
 
-Download SPAMS from  http://spams-devel.gforge.inria.fr/downloads.html .
-https://github.com/xhm1014/spams-matlab-install-on-win10 shows how to install it.
+Download SPAMS from  http://spams-devel.gforge.inria.fr/downloads.html.
+Follow the steps in https://github.com/xhm1014/spams-matlab-install-on-win10 to install.
+
 + **KSVD Matlab toolbox**
 
 Download KSVD v13 from https://www.cs.technion.ac.il/~ronrubin/software.html
 (OMP-Box v10 is required).
+
 + **CVX Matlab toolbox**
 
 Download CVX toobox from http://cvxr.com/cvx/ and install.
