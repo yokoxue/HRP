@@ -10,7 +10,7 @@ Follow the steps in https://github.com/xhm1014/spams-matlab-install-on-win10 to 
 
 + **KSVD Matlab toolbox**
 
-Download KSVD v13 from https://www.cs.technion.ac.il/~ronrubin/software.html and install.
+Download KSVD v13 from https://www.cs.technion.ac.il/~ronrubin/software.html and install
 (OMP-Box v10 is required).
 
 + **CVX Matlab toolbox**
