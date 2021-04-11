@@ -4,7 +4,7 @@
 Test_num = 10;
 Error_l3_O = 0;
 Error_l3_sphere = 0;
-N = 150;
+N = 50;
 K = N;
 M = 100000;
 Theta = 0.1;
@@ -176,9 +176,7 @@ Conv_l3_O_sum =Conv_l3_O_sum+conv_l3_O/Test_num;
 Conv_l3_sph_sum=Conv_l3_sph_sum+conv_l3_sph/Test_num;
 end
 
-%% save
-save('Gap_N150_O.mat','Conv_l3_O_sum');
-save('Gap_N150_SPH.mat','Conv_l3_sph_sum');
+
 
 
 
