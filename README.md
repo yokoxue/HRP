@@ -4,7 +4,7 @@ Code for paper "Efficient Sparse Coding using Hierarchical Riemannian Pursuit" Y
 ## 1.0 Prerequisites
 + **Matlab**
 
-++ **KSVD Matlab toolbox （for Baseline 1)**
++ **KSVD Matlab toolbox （for Baseline 1)**
 
 Download KSVD v13 from https://www.cs.technion.ac.il/~ronrubin/software.html and install
 (OMP-Box v10 is required).
