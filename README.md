@@ -1,6 +1,18 @@
 # HRP
-Code for paper "Efficient Sparse Coding using Hierarchical Riemannian Pursuit" Ye Xue, Vincent Lau, and Songfu Cai (submitted)
+Code for paper "Efficient Sparse Coding using Hierarchical Riemannian Pursuit," in IEEE Transactions on Signal Processing, Y. Xue, V. K. N. Lau and S. Cai, doi: 10.1109/TSP.2021.3093769.
 
+If you find they are useful, please cite:
+```
+@ARTICLE{9470930,
+  author={Xue, Ye and Lau, Vincent K. N. and Cai, Songfu},
+  journal={IEEE Transactions on Signal Processing}, 
+  title={Efficient Sparse Coding using Hierarchical Riemannian Pursuit}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TSP.2021.3093769}}
+```
 ## 1.0 Prerequisites
 + **Matlab**
 
