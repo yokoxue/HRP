@@ -1,5 +1,5 @@
 # HRP
-Code for paper "Efficient Sparse Coding using Hierarchical Riemannian Pursuit," in IEEE Transactions on Signal Processing, Y. Xue, V. K. N. Lau and S. Cai, doi: 10.1109/TSP.2021.3093769.[paper]https://arxiv.org/pdf/2104.10314.pdf
+Code for paper "Efficient Sparse Coding using Hierarchical Riemannian Pursuit," in IEEE Transactions on Signal Processing, Y. Xue, V. K. N. Lau and S. Cai, doi: 10.1109/TSP.2021.3093769.[[paper]](https://arxiv.org/pdf/2104.10314.pdf)
 
 If you find they are useful, please cite:
 ```
